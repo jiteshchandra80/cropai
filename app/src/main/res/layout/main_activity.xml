@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- App Title -->
+        <TextView
+            android:text="Crop AI"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Detect crop diseases using AI"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Main Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:radius="20dp"
+            android:elevation="8dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Image -->
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:src="@drawable/ic_upload"
+                    android:scaleType="centerInside"
+                    android:background="#F5F5F5" />
+
+                <!-- Upload Button -->
+                <Button
+                    android:id="@+id/btnUpload"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Upload Crop Image"
+                    android:layout_marginTop="12dp"
+                    android:backgroundTint="#2E7D32"
+                    android:textColor="@android:color/white" />
+
+                <!-- Detect Button -->
+                <Button
+                    android:id="@+id/btnDetect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Detect Disease"
+                    android:layout_marginTop="8dp"
+                    android:backgroundTint="#1B5E20"
+                    android:textColor="@android:color/white" />
+
+                <!-- Result -->
+                <TextView
+                    android:id="@+id/txtResult"
+                    android:text="Result will appear here"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="#2E7D32"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Footer -->
+        <TextView
+            android:text="Powered by Machine Learning 🌾"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
