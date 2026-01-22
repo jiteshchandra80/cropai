@@ -1,0 +1,17 @@
+{
+    "Apple_Disease": 0,
+    "Apple_Healthy": 1,
+    "Cherry_Disease": 2,
+    "Cherry_Healthy": 3,
+    "Corn_Healthy": 4,
+    "Graphs_Healthy": 5,
+    "Peach_Healthy": 6,
+    "Potato_Disease": 7,
+    "Potato_Healthy": 8,
+    "Strawbeery_Healthy": 9,
+    "Tea_Healthy": 10,
+    "Tomata_Disease": 11,
+    "Tomata_Healthy": 12,
+    "pepper_Disease": 13,
+    "pepper_Healthy": 14
+}
